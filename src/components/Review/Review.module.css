@@ -1,0 +1,31 @@
+.review__content {
+  width: 40%;
+  height: 12rem;
+  background-color: white;
+  position: relative;
+  border: 1px solid white;
+  box-shadow: 3px 1px 5px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.review__content__quotes {
+  position: absolute;
+  top: -30px;
+  left: -35px;
+  color: #c8c7ca;
+  font-size: 70px;
+}
+.review__content__main {
+  padding: 10px;
+  margin-left: 35px;
+}
+.review__content__main h4 {
+  color: #1d1e20;
+  opacity: 0.9;
+  padding: 10px;
+}
+
+.review__content__stars {
+  display: flex;
+}

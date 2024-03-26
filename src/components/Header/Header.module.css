@@ -1,0 +1,54 @@
+.header__container {
+  width: 100vw;
+  height: 4rem;
+  background-color: #f4f4f4;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__banner {
+  color: #1d1e20;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.header__banner h3 {
+  padding: 5px;
+}
+.header__banner h3 span {
+  font-size: 30px;
+}
+.header__container ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul li a {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.item__wrapper {
+  position: relative;
+}
+.item__badge {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  top: -5px;
+  right: -1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.item__badge h5 {
+  margin-bottom: 3px;
+}
+.last__item {
+  color: red;
+}
